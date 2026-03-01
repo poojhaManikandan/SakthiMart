@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SakthiMart | Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo">SakthiMart</div>
+
+            <div class="nav-search">
+                <input type="text" placeholder="Search for electronics, fashion, books...">
+                <button>Search</button>
+            </div>
+
+            <div class="nav-items">
+                <div class="nav-link">
+                    <span class="link-1"><i class="fa-solid fa-user"></i> Hello, Sign in</span>
+                    <span class="link-2">Account & Lists</span>
+                </div>
+                <div class="nav-link">
+                    <span class="link-1"><i class="fa-solid fa-rotate-left"></i> Returns</span>
+                    <span class="link-2">& Orders</span>
+                </div>
+                <div class="nav-link cart-link">
+                    <div class="cart-icon-container">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                    <span class="link-2">Cart</span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="sub-nav">
+            <a href="index.html"><span>Home</span></a>
+            <a href="products.html"><span>Products</span></a>
+            <a href="contact.html"><span>Contact Us</span></a>
+            <span>Best Sellers</span>
+            <span>Electronics</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header"
+            style="background-color: var(--amazon-light); color: white; padding: 40px 20px; text-align: center;">
+            <h1>Contact Us / Place an Order</h1>
+            <p>We're here to help. Reach out to us with any questions or order requests.</p>
+        </section>
+
+        <section class="contact-section">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p><i class="fa-solid fa-location-dot"></i> 123 Tech Park, Chennai, India</p>
+                    <p><i class="fa-solid fa-envelope"></i> support@sakthimart.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+                    <div class="working-hours">
+                        <h3>Working Hours</h3>
+                        <p>Mon - Fri: 9:00 AM - 8:00 PM</p>
+                        <p>Sat - Sun: 10:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h2>Send a Message</h2>
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="order-id">Order ID (Optional)</label>
+                            <input type="text" id="order-id" name="order-id" placeholder="SM-12345678">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="How can we help you today?"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+            Back to top
+        </div>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Get to Know Us</h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Press Releases</li>
+                    <li>SakthiMart Science</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Connect with Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Make Money with Us</h3>
+                <ul>
+                    <li>Sell on SakthiMart</li>
+                    <li>Protect and Build Your Brand</li>
+                    <li>Become an Affiliate</li>
+                    <li>Advertise Your Products</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Let Us Help You</h3>
+                <ul>
+                    <li>Your Account</li>
+                    <li>Returns Centre</li>
+                    <li>100% Purchase Protection</li>
+                    <li>SakthiMart App Download</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
