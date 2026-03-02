@@ -35,8 +35,6 @@ a {
 ul {
     list-style: none;
 }
-
-/* Header Styles */
 header {
     background-color: var(--amazon-dark);
     color: var(--text-white);
@@ -161,8 +159,6 @@ header {
 .sub-nav span:hover {
     border: 1px solid white;
 }
-
-/* Hero Section */
 .hero {
     position: relative;
     height: 400px;
@@ -196,8 +192,6 @@ header {
     transform: translateY(-2px);
     box-shadow: var(--shadow);
 }
-
-/* Featured Grid */
 .container {
     max-width: 1400px;
     margin: -100px auto 40px;
@@ -241,8 +235,6 @@ header {
     color: #c45500;
     text-decoration: underline;
 }
-
-/* Product Section */
 .product-section {
     max-width: 1400px;
     margin: 40px auto;
@@ -321,7 +313,6 @@ header {
     background-color: var(--amazon-orange-hover);
 }
 
-/* Footer */
 footer {
     background-color: var(--amazon-light);
     color: var(--text-white);
@@ -361,7 +352,6 @@ footer {
     text-decoration: underline;
 }
 
-/* Contact and General Pages */
 .page-header {
     background-color: var(--amazon-light);
     color: white;
@@ -482,7 +472,7 @@ footer {
     background-color: var(--amazon-orange-hover);
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     .nav-search {
         display: none;
@@ -507,3 +497,4 @@ footer {
         padding-bottom: 20px;
     }
 }
+
